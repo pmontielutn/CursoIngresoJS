@@ -4,10 +4,11 @@ y luego mostrarlo por 'Alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 	var nombreIngresado;
-	//nombreIngresado=txtIdNombre.value;//valor de box 
+	//nombreIngresado=txtIdNombre.value;//forma mas facil valor de box 
 	nombreIngresado=document.getElementById('txtIdNombre').value;
-	alert("Su nombre es:"+ nombreIngresado);
+	alert("Su nombre es: "+ nombreIngresado);
 
 }
 
-
+/* txtIdNombre 
+Ingresar datos po id . id permite identificar componentes*/
